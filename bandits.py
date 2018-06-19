@@ -30,6 +30,6 @@ class BernoulliBandit(Bandit):
         else:
             return 0
 
-class RedditBandit(Bandit):
+#class RedditBandit(Bandit):
     
-    def __init__(self, n, probas=None)
+#    def __init__(self, n, probas=None)

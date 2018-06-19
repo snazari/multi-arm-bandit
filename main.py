@@ -80,7 +80,7 @@ def experiment(K, N):
         s.run(N)
 
     #plot_results(test_solvers, names, "results_K{}_N{}.png".format(K, N))
-    return b
+    return b, s
 
 if __name__ == '__main__':
     experiment(10, 5000)
